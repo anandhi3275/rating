@@ -1,0 +1,130 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle,.middleTwo{
+    height: 350px;
+    width: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    margin-top: 90px;
+
+}
+.middleTwo{
+    display: none;
+}
+.star{
+    width: 35px;
+    height: 35px;
+    background-color: hsl(212, 14%, 21%);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.starSvg{
+    margin-left: 9px;
+    margin-top: 9px;
+}
+.heading{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Overpass';
+}
+.para{
+    color: hsl(216, 12%, 54%);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Overpass';
+}
+.circleOne,.circleFour,.circleFive{
+    width: 35px;
+    height: 35px;
+    background-color: hsl(212, 14%, 21%);
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+.circleFour:click{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.circleFour.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.circleFive.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.circleOne.selected{
+    background-color: hsl(213, 14%, 35%);
+    color: white;
+}
+.circleFive:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+.rounds{
+    display: flex;
+}
+.btn{
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    width: 280px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+}
+.ratings{
+    height: 30px;
+    width: 250px;
+    background-color: hsl(212, 14%, 21%);
+    margin-top: 180px;
+    margin-left: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(25, 78%, 45%);
+}
+.end{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    position: absolute;
+}
+.paragrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    color: hsl(216, 12%, 54%);
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
